@@ -1,0 +1,179 @@
+<html>
+
+<head>
+<title>Transmition Systems-نظم التراسل</title>
+<link rel="stylesheet" href="style3.css">
+<style>
+body {background:#1a1d26 url("bg4.png") no-repeat scroll; background-size:110%;}
+
+
+h1 {color:#FBF5E5; position:relative; top:0px;}
+
+@keyframes an1
+{
+0% {font-size:5pt; color:lightblue;}
+100% {font-size:40pt; color:#FBF5E5;}
+}
+
+.an1 {position:absolute; animation-name:an1; animation-duration:7s; left:14%; width:900px; height:100px;}
+
+p,li {color:#697565; text-indent:0px;}
+
+h2 {color:#D8D2C2;}
+
+h3 {color:#D6BD98; font-size:20pt;}
+
+p {margin-left:400px;}
+
+@keyframes next {
+0% {background-color:#343131; color:#697565; width:500; height:50; top:10;}
+100% {background-color:#697565; color:#343131; width:510; height:51; top:0;}
+
+
+}
+
+.next {background-color:#343131;  color:#a28089; }
+
+.next:hover {background-color:#697565;  color:#343131; }
+
+</style>
+</head>
+
+<body dir=rtl>
+
+<div class=sticky>
+<table class=nvbar cellspacing=0 cellpadding=0>
+<tr>
+
+<td><a href="Main Page.html">
+<div class=bar>
+<h4>Home page</h4>
+</div>
+</td>
+
+<td><a href="benefits.htm">
+<div class=bar>
+<h4>benefits of networks</h4>
+</div>
+</td>
+
+<td><a href="types.htm">
+<div class=bar>
+<h4>Types of Networks</h4>
+</div>
+</td>
+
+<td><a href="os.htm">
+<div class=bar>
+<h4>Open System Layers</h4>
+</div>
+</td>
+
+<td><a href="traprpl.htm">
+<div class=bar>
+<h4>Transmision Problems</h4>
+</div>
+</td>
+
+<td><a href="ctypes.htm">
+<div class=bar>
+<h4>Cables Types</h4>
+</div>
+</td>
+
+
+
+<td>
+<h5 align=left style="margin-left:10px;">
+<img width=100 src="unrwa.jpg" align=left><font face="Magneto" color="white">Made By: Nader Aldamaira</font>
+</h5>
+</td>
+</table>
+</div>
+
+
+<div class=an1>
+<h1 class=an1 align=center> نظم التراسل-Transmition Systems <br><br></h1>
+</div>
+
+<br><br><br>
+<br><br><br>
+
+<hr color="#387478" size=4 width="95%">
+
+<h2>حسب نمط الأتصال Transmition Mode</h2>
+<ol>
+<li><h3>التراسل البسيط Simplex Transmition</h3>
+<p>يسمح بأرسال او استقبال البيانات وليس كلاهما معا من الأمثلة عليه:
+<ul>
+<li>المايكروف الصوتي (ارسال)
+<li>سماعة الحاسوب (استقبال)
+<li>مذياع والتلفاز (استقبال)
+</ul>
+</p>
+
+<li><h3>التراسل نصف المزدوج Half Duplex Transmition</h3>
+<p>يسمح بالأرسال والأستقبال لكن ليس بنفس الوقت من الأمثلة عليه:
+<ul>
+<li>الاجهزة اللاسلكية
+<li>برنامج mediaring
+</ul>
+
+</p>
+
+<li><h3>التراسل المزدوج Full Duplex Transmition</h3>
+<p>يسمح بالأرسال والاستقبال بنفس الوقت من الامثلة عليه:
+<ul>
+<li>انظمة الاتصال الهاتفي
+<li>برنامج MSN
+<li>برنامج Yehoo Messenger
+<li>برنامج Windows Massenger
+</ul>
+</ol>
+
+<h2>حسب التزامن Synchronization</h2>
+<ol>
+<li><h3>التراسل المتزامن Synchronous Trnasmition</h3>
+<p>يعتمد على وجود تنظيم زمني (اتفاق) بين المرسل والمستقبل, يتم ارسال البيانات دفعة واحدة على شكل حزمة Packet او اطار Frame يعتمد حجمها على نوع البروتوكول, بين كتلة واخرى يتم ارسال مجموعة من الرموز الثنائية لادارة وادامة عملية التزامن </p>
+
+<li><h3>التراسل غير المتزامن Unsynchronous Trnasmition</h3>
+<p>لايعتمد على وجود تزامن بين المرسل والمستقبل, يرسل البيانات رمز (بايت) في كل مرة, يضيف بت في بداية البايت (Start Bit) واخر في نهاية البايت (Stop Bit) واحيانا يضيف بت للتدقيق (Parity Bit)  </p>
+</ol>
+<h2>حسب أسلوب نقل البيانات </h2>
+
+<h3>التراسل المتسلسل Serial Transmition</h3>
+<p>ينقل رمز ثنائي (bit-by-bit) في كل مرة بشكل تسلسلي عبر خط نقل واحد لذلك هو يعتبر بطيئ جدا, يستخدم للارسال لمسافات بعيدة جدا  لصعوبة تمديد عدد كبير من الاسلاك بين طرفي عملية التراسل كما هو مستخدم في اجهزة المودم (Modem)</p>
+
+<h3>التراسل المتوازي Parallel Transmition</h3>
+<p>ينقل بايلت في كل مرة (Byte-by-Byte)   من خلال قناة لكل بيت, يمتاز بسرعته بالمقارنة مع النوع المتسلسل من الامثلة عليه طابعات الحاسوب </p>
+
+<h2>حسب الأرسال ووسائط التراسل (نمط الحزمة) Transmition and Transmition Media</h2>
+<h3>الأرسال بحزمة الاساس Baseband</h3>
+<ol>
+<li>تستخدم قناة واحدة يستخدمها جميع الاجهزة
+<li>تستخدم تردد واحد ثابت
+<li>تستخدم اشارات رقمية (digital) مثل الاشارات الكهربائية والنبضات الضوئية متقطعة
+<li>تستخدم جهاز المعيد (Repeater) لتقوية الاشارات
+</ol>
+
+
+<h3>الأرسال بالحزمة العريضة Broadband</h3>
+<ol>
+<li>تستخدم قناتين واحدة للارسال وواحدة للاستقبال
+<li>تستخدم ترددين او اكثر
+<li>تستخدم اشارات تناظرية (Analog) بشكل متواصل من النبضات
+<li>تستخدم جهاز المضخم (Amplifier) لتقوية الاشارات
+</ol>
+<p>لهذا النوع اسلوبين للتنفيظ هما:</p>
+<ul>
+<li>الحزمة العريضة بالتجزئة الوسطية (Mid-Split): يستخدم كيبل واحد ويتم تجزيء سعة الحزمة الى قناتين واحدة للارسال والاخرى للاستقبال كل منهما بتردد مختلف
+<li>الحزمة العريضة بالكيبل المزدوج (Dual-Cable): يستخدم زوج من الكوابل واحد للارسال وواحد للاستقبال
+</ul>
+
+<center>
+<a href="quiz4.htm">
+<div class=next>اختبار قصير (Quiz)</div>
+</a>
+</center>
+
+</body></html>

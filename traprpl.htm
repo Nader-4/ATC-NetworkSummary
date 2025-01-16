@@ -1,0 +1,173 @@
+<html>
+
+<head>
+<title>Transmition Systems-نظم التراسل</title>
+<link rel="stylesheet" href="style3.css">
+<style>
+
+body {background:#1a1d26 url("bg5.png") no-repeat scroll; background-size:100%;}
+
+h1 {color:#F6F4F0; position:relative; top:0px;}
+
+span.h1 {border:6px solid #F6F4F0; animation-name:an1; animation-duration:4s; position:relative;}
+
+@keyframes an1 {
+0% {border:6px solid blue; top:1000px; color:blue;}
+50% {border:6px solid lightblue; top:500px; color:lightblue;}
+75% {border:6px solid lightblue; top:250px; color:cyan;}
+100% {border:6px solid #F6F4F0; top:0px; color:#F6F4F0;}
+}
+
+div.bg {margin:0px 200px; background-color:rgba(0, 0, 0, 0.5); border-radius:10px; padding:0px 8px 4px;}
+
+
+
+p,li {color:#4DA1A9; text-indent:6px;}
+
+h2,.h2 {color:#79D7BE; font-size:25pt;}
+
+
+@keyframes next {
+0% {background-color:#4DA1A9; color:#F6F4F0; width:500; height:50; top:10;}
+100% {background-color:#F6F4F0; color:#4DA1A9; width:510; height:51; top:0;}
+
+
+}
+
+.next {background-color:#4DA1A9;  color:#F6F4F0; }
+
+.next:hover {background-color:#F6F4F0;  color:#4DA1A9; }
+
+</style>
+
+</head>
+
+<body dir=rtl>
+
+<div class=sticky>
+
+<table class=nvbar cellspacing=0 cellpadding=0>
+<tr>
+
+<td><a href="Main Page.html">
+<div class=bar>
+<h4>Home page</h4>
+</div>
+</td>
+
+<td><a href="benefits.htm">
+<div class=bar>
+<h4>benefits of networks</h4>
+</div>
+</td>
+
+<td><a href="types.htm">
+<div class=bar>
+<h4>Types of Networks</h4>
+</div>
+</td>
+
+<td><a href="os.htm">
+<div class=bar>
+<h4>Open System Layers</h4>
+</div>
+</td>
+
+<td><a href="trasys.htm">
+<div class=bar>
+<h4>Transmision Systems</h4>
+</div>
+</td>
+
+<td><a href="ctypes.htm">
+<div class=bar>
+<h4>Cables Types</h4>
+</div>
+</td>
+
+
+
+<td>
+<h5 align=left style="margin-left:10px;">
+<img width=100 src="unrwa.jpg" align=left><font face="Magneto" color="white">Made By: Nader Aldamaira</font>
+</h5>
+</td>
+</table>
+</div>
+
+
+<div class=an1>
+<h1 class=an1 align=center><span class=h1>  معيقات ومشاكل التراسل-Transmition Problems</span></h1>
+</div>
+
+<br>
+<hr color="#F6F4F0" size=8px width="1400">
+<div class=bg>
+
+<ol>
+<li class=h2><h2>تلاشي الاشارة Attenuation</h2>
+<p>انخفاض في حجم الاشارة دون تغير شكلها, كوابل الألياف الضوئية قد تكون عرضة للتلاشي بسبب:-</p>
+<ul type=disc>
+<li>التصادم مع الشوائب الموجود في الالياف الزجاجية
+<li>التشتت الشعاعي للاشارة بعيدا عن محور الالياف الزجاجية
+</ul>
+<p>يمكن التقليل من التلاشي وذلك من خلال :-</p>
+<ul type=disc>
+<li>ابقاء طول الكيبل قصير
+<li>أستخدام اجهزة خاصة لتقوية الاشارة مثل المعيدات
+</ul>
+
+<li class=h2><h2>التشويش Distortion</h2>
+<p> تغير غير مرغوب به للاشارة اثناء نقلها, بحيث تصبح مشوهة وغير واضحة, قد يكون التشويش ناتج عن تأثير الموجات الالكترومغناطيسية لموجات البث الاذاعي (RFI/EMI).<br>من طرق الوقاية من التشويش:-</p>
+
+<ul type=disc>
+<li>الالتزام بأرشادات الكيبل
+<li>ملاحظة مسببات التشويش وابعاد الكيبلات عنها
+<li>استخدام بروتوكلات تستطيع الكشف عن الخطأ وتصحيحه
+<li>يمكن اللجوء لجهاز يعيد توليد الاشارة وليس تقويتها فحسب مثل Routerو switch
+</ul>
+
+<li class=h2><h2>التشتت Dispersion</h2>
+<p> حدوث اتساع في الرموز الثنائية المنقولة ما يؤدي الى تداخلها, يمكن التقليل من ظاهرة التشتت عن طريق:-</p>
+<ul type=disc>
+<li>الالتزام بخصائص الوسط الناقل,خاصة في ما يتعلق بطول الكيبل
+<li>في حالة الالياف الضوئية يمكن استخدام اشعة الليزر (Single-mode)
+</ul>
+
+<li class=h2><h2>التأخير Delay/Latency</h2>
+<p>تأخير وصول الاشارة المنقولة الى هدفها, اي تأخير عن الزمن المتوقع يكون بسبب وجود اجهزة ومعدات الكترونية (مثل الترانزستور) تدخل في بناء احهزة الشبكة.</p>
+
+<li class=h2><h2>فقدان التزامن Timing Jitter</h2>
+<p> فقدان التزامن بين المرسل والمستقبل للأشارة المنقولة ما يؤدي الى وصول الأشارة قبل او بعد وقتها المتوقع. </p>
+<ul type=disc>
+<li>يمكن تفادي هذه المشكلة بأستخدام سلسلة من نبضات الساعة (Serial Clock Synchronization) سواء تم ذلك من خلال الكيان المادي او البرمجيات او البروتوكولات 
+</ul>
+
+<li class=h2><h2> التصادمات Collisions </h2>
+<p> تصادم بين اشارتين منقولتين في الوسط الناقل المشترك بسبب محاولة عقدتين في الشبكة من القيام بالأرسال بنفس الوقت </p>
+
+<li class=h2><h2>التقاطع Crosstalk</h2>
+<p> شكل من اشكال التشويش ناتج من تأثير الاشارة المنقولة في احد خطوط النقل على الاشارة المنقولة في الخط المجاور لها. </p>
+<ul type=disc>
+<li>تشبه حالة سماعنا لأشخاص يتحدثون مع بعضهم اثناء اجراء اتصال
+<li>تعتبر الكوابل المجدولة الاكثر عرضة لهذه الظاهرة
+<li> لتفادي هذه الظاهرة يتم اشتخدام اغلفة واقية للكوابل ويمكن ايضا جدولت الكوابل بقوة
+</ul>
+
+<li class=h2><h2>الضياع بسبب الاضافة Insersion Loss</h2>
+<p>تحدث هذه الظاهرة عند اضافة عدد من الاجهزة الى الشبكة اكثر مما هو مسموح</p>
+<ul type=disc>
+<li>لتفادي هذه الظاهرة لابد من الالتزام بمحددات الكوابل المستخدمة ومحددات التكنولوجيا المستخدمة في الربط.
+</ul>
+</ol>
+</div>
+
+<center>
+<a href="quiz5.htm">
+<div class=next>اختبار قصير (Quiz)</div>
+</a>
+</center>
+
+
+</html>
+</body>

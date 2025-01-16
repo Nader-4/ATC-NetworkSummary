@@ -1,0 +1,210 @@
+<html>
+
+<head>
+<title>Open System Layers-طبقات النظام المفتوح</title>
+<link rel="stylesheet" href="style3.css">
+<style>
+body {background:#000000 url("bg3.jpg") no-repeat scroll 50% 0%; background-size:100%;}
+
+@keyframes an1
+{
+0% {left:168px; color:cyan;}
+25% {left:300px; color:lightblue;}
+50% {left:0px; color:blue;}
+75% {left:168px; color:purple;}
+100% {left:168px; color:#000957;}
+}
+
+.an1 {position:absolute; animation-name:an1; animation-duration:7s; left:14%; width:900px; height:100px;}
+
+
+h1 {color:#000957; position:relative; top:0px;}
+
+p,li {color:#441752; margin-left:380px;}
+
+
+
+font {position:relative; top:60px; left:10px;}
+
+h3 {position:relative; top:33%; vertical-align:middle; text-shadow:1px 1px 2px;}
+
+h2 {color:#EFB6C8;}
+
+@keyframes next {
+0% {background-color:#ffa8B6; color:#8174A0; width:500; height:50; top:10;}
+100% {background-color:#8174A0; color:#ffa8B6; width:510; height:51; top:0;}
+
+}
+
+
+
+.next {background-color:#441752;  color:#a28089;}
+
+.next:hover {background-color:#8174A0;  color:#ffa8B6;}
+</style>
+</head>
+
+<body dir=rtl>
+
+<div class=sticky>
+<table class=nvbar cellspacing=0 cellpadding=0>
+<tr>
+
+<td><a href="Main Page.html">
+<div class=bar>
+<h4>Home page</h4>
+</div>
+</td>
+
+<td><a href="benefits.htm">
+<div class=bar>
+<h4>benefits of networks</h4>
+</div>
+</td>
+
+<td><a href="types.htm">
+<div class=bar>
+<h4>Types of Networks</h4>
+</div>
+</td>
+
+<td><a href="trasys.htm">
+<div class=bar>
+<h4>Transmision Systems</h4>
+</div>
+</td>
+
+<td><a href="traprpl.htm">
+<div class=bar>
+<h4>Transmision Problems</h4>
+</div>
+</td>
+
+<td><a href="ctypes.html">
+<div class=bar>
+<h4>Cables Types</h4>
+</div>
+</td>
+
+
+
+<td>
+<h5 align=left style="margin-left:10px;">
+<img width=100 src="unrwa.jpg" align=left><font face="Magneto" color="white">Made By: Nader Aldamaira</font>
+</h5>
+</td>
+</table>
+</div>
+
+
+<div class=an1>
+<h1 class=an1 align=center> طبقات النظام المفتوح-Open System Layers <br><br></h1>
+</div>
+
+<br><br><br>
+<br><br><br>
+
+<hr color="#8174A0" size=4 width="95%">
+
+<h2> <span>7) طبقة التطبيق-Application Layer :</span></h2>
+
+<ul>
+<li>تحافظ البيانات (Data) على اسمها
+<li>تؤمن الربط بين التطبيقات وخدمات الشبكة (مثل E-mail)
+<li>تعتبر السبب الرئيسي في تأسيس الجلسة
+<li>لا تتضمن تطبيقات المستخدم<br><br>
+<li>بعض التطبيقات عليها:
+<ul type=square>
+<li>برنامج البريد الألكتروني
+<li>نقل البيانات
+<li>الوصول الى قواعد البيانات
+<li>الوصول الى الطابعة والملفات
+</ul>
+</ul>
+
+
+<h2><span>6) طبقة التقديم-Presentation Layer :</span></h2>
+
+<ul>
+<li>تحافظ البيانات (Data) على اسمها
+<li>دارة عمليات ترميز البيانات (ترميز وفك ترميزها)
+<li>تحقيق التوافق ما بين اساليب الترميز المستخدمة
+<li>تشفير (Encryption) وضغط (Compression) البيانات
+<li>تحويل هيئة (Format) النصوص والرسوم والصور والفيديو والملفات الصوتية الى شكل يمكن التعامل معه
+
+</ul>
+
+<h2><span>5) طبقة الجلسة-Session Layer</span></h2>
+
+<ul>
+<li>تحافظ البيانات (Data) على اسمها
+<li>فتح قناة اتصال (تأسيس جلسة اتصال (Establishment))
+<li>مراقبة عملية الاتصال (التحكم والسيطرة على الجلسة (Managment))
+
+<ul type=square>
+<li>التأكد من ان المتصلين مخولون بالقيام بالأتصال
+<li>مراقبة تدفق البيانات (التحكم بالمرسل متى يرسل والفترة الزمنية اللازمة للتراسل)
+<li>تحديد الزمن عملية الاتصال
+<li>توليد الفواتير بالرسوم المتحققة
+</ul>
+<li>اغلاق قناة الاتصال (Termination)
+
+</ul>
+
+<h2><span>4) طبقة النقل-Transport Layer :</span></h2>
+
+<ul>
+<li>تسمى البيانات بالمقاطع (Segments)
+<li>ضمان ارسال البيانات كاملة خالية من الأخطاء
+<li>تجزئة البيانات (segmentation) وتجميعها
+<li>ترقيم المقاطع (Segments) 
+<li>اضافة Port Number لكل مقطع (Segment)
+<li>السيطرة على تدفق البيانات (Flow Control)
+<li>ارسال اشعار للمرسل بارسال الرسالة دون اخطاء (acknowledgment)
+</ul>
+
+<h2><span>3) طبقة الشبكة-Network Layer :</span></h2>
+
+<ul>
+<li>تسمى البيانات بالحزم (Packets)
+<li>مسؤولة عن توجيه وعنونة الرسائل
+<li>اضافة عنوان منطقي (Logical Address/Layer 3 Address/IP Address) لكل حزمة (Packet) من خلال مدير الشبكة او نظام توزيع العنونة ديناميكيا (DHCP)
+<li>أختيار افضل مسار للحزمة (Packet)
+<li>يعتمد اختيار المسار الأفضل على :
+<ul type=square>
+<li>نوع وهيكلية الشبكة
+<li>حمل حركة المرور (traffic Load)
+</ul>
+</ul>
+
+<h2><span>2) طبقة وصل البيانات-Data Link Layer :</span></h2>
+
+<ul>
+<li>تسمى البيانات بالأطر (Frames)
+<li>تنفيذ خوارزمية  FCS (Frame Check Sequence) او خوارزمية CRC (Cyclic Redundancy Check) لمعرفة طريقة ترتيب الرموز الثنائية في هذا الاطار
+<li>اضافة ناتج احد الأختبارين السابقين في نهاية كل اطار للكشف عن الأخطاء 
+<li>اضافة مجموعة من الرموز الثنائية لتحديد حدود كل اطار (Frame)
+<li>اضافة ذيل (Frame Tailor) ومقدمة (Frame Header) حيث يحتوي الذيل على ناتج احد الاختبارين وتحتوي المقدمة على العنوان الفيزيائي (MAC Address)
+<li>يسلم الأطار الى الطبقة الأولى بعد الاحتفاظ بنسخة منه الى ان يتم ارسال اشعار بالارسال الصحيح
+<li>هذه الطبقة تتكون من طبقتين جزئيتين هما :
+<ul type=square>
+<li>طبقة التحكم بالوصول (Media Access Control "MAC") الملاصقة للطبقة الاولى (Physical Layer)
+<li>طبقة التحكم بالربط المنطقي (Logical Link Control "LLC") الملاصقة للطبقة الثالثة (Network Layer)
+</ul>
+</ul>
+
+<h2><span>1) الطبقة الفيزيائية-Physical Layer :</span></h2>
+
+<ul>
+<li>تسمى البيانات بالبتات (Bits)
+<li>تحويل الرموز الثنائية الى اشارات تناسب طبيعة الوسط الناقل (كهربائية/ضوئية/اشارات)
+<li>توحيد شكل البيانات عند الارسال بشكل رمز ثنائي (Bit)
+</ul>
+
+<center>
+<a href="quiz3.htm">
+<div class=next>اختبار قصير (Quiz)</div>
+</a>
+</center>
+</body>
+</html>

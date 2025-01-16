@@ -1,0 +1,83 @@
+
+@keyframes an1 
+{
+0% {font-size:10px; color:purple;}
+25% {font-size:20px; color:blue;}
+50% {font-size:30px; color:lightblue;}
+75% {font-size:40px; color:cyan;}
+100% {font-size:50px; color:cream;}
+
+}
+
+.an1
+{
+animation-name:an1;
+animation-duration:4s;
+}
+
+hr {border:6px dashed cream; border-radius:10px;}
+
+@keyframes an2 
+{
+0% { left:1000px; }
+100% { left:0px; }
+
+}
+
+td {position:relative; animation-name:an2; animation-duration:4s;}
+
+@keyframes an3
+{
+0% {color:darkred;}
+25% {color:red;}
+50% {color:orange;}
+75% {color:lightblue;}
+100% {color:white;}
+
+}
+
+@keyframes an4
+{
+0% {width:250px; height:250px;}
+100% {width:300px; height:300px;}
+
+}
+
+@keyframes an5
+{
+0% {left:0%; color:yellow;}
+50% {left:76%; color:blue;}
+95% {left:0%; color:lime;}
+100% {left:0%; color:yellow;}
+
+}
+
+h1 {font:bold 50px "Times New Roman"; color:cream; text-shadow:2px 2px 5px;}
+h2 {text-shadow:1px 1px 2px;}
+td {font:bold 10pt arial;}
+img {border-radius:15px;}
+
+
+h4 {position:relative; left:0%; animation-name:an5; animation-duration:5s; animation-iteration-count:infinite; }
+
+img:hover {width:300px; height:300px; color:green; animation-name:an4; animation-duration:0.5s;}
+
+img,h2 {animation-name:an3; animation-duration:5s;}
+
+@keyframes an6 
+{
+0% { right:1000px; }
+100% { right:0px; }
+
+}
+
+.an6 {animation-name:an6; animation-duration:5s;}
+
+@keyframes an7
+{
+0% { top:1000px; }
+100% { top:0px; }
+
+}
+
+.an7 {animation-name:an7; animation-duration:5s;}
